@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": ["error", 140],
+    "react/jsx-first-prop-new-line": ["error", "never"],
+    "react/jsx-closing-bracket-location": ["error", "after-props"],
+    "react/jsx-space-before-closing": ["error", "never"]
+  }
+}
